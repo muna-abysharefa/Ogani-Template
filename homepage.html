@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sales.css">
+
+    <script defer src="https://use.fontawesome.com/207b7392fc.js"></script>
+
+    <title>Page Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="header-top-left">
+                        <ul>
+                            <li class="icon-email">
+                                <a href="mailto:stores@gmail.com">
+                                    <img src="./assets/email-svgrepo-com.svg">
+                                    <span>stores@gmail.com</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                Free Shipping for all Order of $99
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="header-top-right">
+                        <div class="header-top-left-social">
+                            <a href="#">
+                                <img src="./assets/facebook-svgrepo-com.svg">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/twitter-svgrepo-com.svg">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/instagram-svgrepo-com.svg">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/icons8-linkedin-2.svg">
+                            </a>
+                        </div>
+
+                        <div class="header-top-right-language">
+                            <img src="./assets/language-svgrepo-com.svg">
+                            <select>
+                                <option>English</option>
+                                <option>Arabic</option>
+                            </select>
+
+                            <span class="arrow_carrot-down"></span>
+                        </div>
+
+                        <div class="header-top-right-login">
+                            <a href="#">
+                                <img src="./assets/person.svg">
+                                <span>Login</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="header-logo">
+                    <img src="./assets/logo.png">
+                </div>
+                <div class="header-menu">
+                    <nav>
+                        <ul class="desktop-nav-group" style="display:none;">
+                            <li class="activepage"><a href='./homepage.html'>Home</a> </li>
+                            <li><a href='./homepage.html?page=about' id="about-link" data-target="1"
+                                    onclick="SelectedTab(this)">
+                                    About
+                                </a> </li>
+                            <li><a href='./homepage.html?page=shop' id="shop-link" data-target="2">shop</a> </li>
+                            <li><a href='./homepage.html?page=pages' id="pages-link" data-target="3">pages</a> </li>
+                            <li><a href='./homepage.html?page=blog' id="blog-link" data-target="4">blog</a></li>
+                            <li><a href='./homepage.html?page=contact' id="contact-link" data-target="5">contact</a>
+                            </li>
+                        </ul>
+
+                        <ul class="mobile-nav-group side-nav-toggle" style="display:none;">
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="./assets/icons8-slider-32.png" style="width: 100%;">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-cart">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/heart-fill-svgrepo-com.svg">
+                                <span>1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/cart-alt-1-svgrepo-com.svg">
+                                <span>3</span>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                    <div class="header-cart-price">
+                        item:
+                        <span>$150.00</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="about" style="display: block;">
+        <div class="container">
+            <div class="row hero-image">
+                <div class="col-md-3">
+                    <div class="hero-cetogories">
+                        <div class="hero-cetogories-all">
+                            <span>All departments</span>
+                            <button class="show-ul">
+                                <img src="./assets/down-arrow-backup-2-svgrepo-com.svg" class="arrow">
+                                <!-- <img src="./assets/arrow-up.png" class="arrow1" style="width: 18px; display: none;"> -->
+
+                            </button>
+                        </div>
+                        <ul class="show-ul">
+                            <li>Fresh Meat</li>
+                            <li>Vegetables</li>
+                            <li>Fruit & Nut Gifts</li>
+                            <li>Fresh Berries</li>
+                            <li>Ocean Foods</li>
+                            <li>Butter & Eggs</li>
+                            <li>Fastfood</li>
+                            <li>Fresh Onion</li>
+                            <li>Papayaya & Crisps</li>
+                            <li>Oatmeal</li>
+                            <li>Fresh Bananas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="hero-search">
+                        <div class="hero-search-form">
+                            <form action="#">
+                                <span class="hero-search-categories">All Categories</span>
+                                <input type="text" placeholder="What do you need ?">
+                                <button type="submit" class="search-btn">SEARCH</button>
+                            </form>
+
+                        </div>
+
+                        <div class="hero-search-phone">
+                            <div class="icon-phone">
+                                <img src="./assets/phone.svg">
+                            </div>
+                            <div class="text-phone">
+                                <h5>+9629846732</h5>
+                                <span>support 24/7 time</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-items">
+                        <div class="hero-text">
+                            <span>FRUIT FRESH</span>
+                            <h2>
+                                Vegetable
+                                <br>
+                                100% Organic
+                            </h2>
+                            <p>Free Pickup and Delivery Available</p>
+                            <button type="button" class="site-btn">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="shop" style="display: block;">
+        <div class="card">
+            <div class="card-body">
+                <img src="./assets/person.svg">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-logo">
+                            <img src="./assets/logo.png">
+                        </div>
+                        <ul>
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: <a href="tel:00962765930755">+962765930755</a></li>
+                            <li>Email: oganic32@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="footer-about">
+                            <h4>Join Our Newsletter Now</h4>
+                            <p>Get E-mail updates about our latest shop and special offers.</p>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit" class="site-btn">Subscribe</button>
+                            </form>
+                            <div class="social-media">
+                                <a href="#">
+                                    <img src="./assets/facebook-svgrepo-com.svg">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/twitter-svgrepo-com.svg">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/instagram-svgrepo-com.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+
+    <label class="aside-shade"></label>
+    <aside>
+        <button class="side-nav-toggle">
+            <img src="./assets/icons8-close.svg" alt="" style="width: 40%; border: none;">
+        </button>
+
+        <div class="container">
+            <div class="row">
+                <div class="img-logo">
+                    <img src="./assets/logo.png">
+                </div>
+
+                <div class="header-cart">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/heart-fill-svgrepo-com.svg">
+                                <span>1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/cart-alt-1-svgrepo-com.svg">
+                                <span>3</span>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                    <div class="header-cart-price">
+                        item:
+                        <span>$150.00</span>
+                    </div>
+
+                </div>
+
+                <div class="header-top-right-language">
+                    <img src="./assets/language-svgrepo-com.svg">
+                    <select>
+                        <option>English</option>
+                        <option>Arabic</option>
+                    </select>
+
+                    <span class="arrow_carrot-down"></span>
+
+                    <div class="header-top-right-login">
+                        <a href="#">
+                            <img src="./assets/person.svg">
+                            <span>Login</span>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <nav>
+                    <ul class="desktop-nav-group">
+                        <li>
+                            <a href="./homepage.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./homepage.html?page=about" id="about-link">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="./homepage.html?page=shop" id="shop-link">
+                                Shop
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./homepage.html?page=pages" id="pages-link">
+                                Pages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./homepage.html?page=blog" id="blog-page">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./homepage.html?page=contact" id="contact-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+    </aside>
+
+    <script src="./inner.js"></script>
+    <script type='text/javascript' src="./sales.js"></script>
+    <script type='text/javascript' src="./activtab.js"></script>
+
+</body>
+
+</html>
